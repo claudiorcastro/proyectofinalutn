@@ -5,29 +5,37 @@
     text-decoration: none;
 }
 body{
-    background-image: linear-gradient(to bottom, #d8d3d3 0%, #a7a6a6 50%,#7e7e7e 75%);
+    background-color: black;
     background-repeat: no-repeat;
 }
 h1{
-    color: white;
+    color: #FF4B03;
     text-align: center;
     font-family: 'Aref Ruqaa Ink', serif;
 }
 
 h2{
-    color: white;
+    color: #FF4B03;
     text-align: center;
     font-family: 'Aref Ruqaa Ink', serif;
     font-style: italic;
 }
 footer{
     background-color: #d8d3d3;
-    color: red;
+    color: #FF4B03;
 }
 a{
     font-family: 'Aref Ruqaa Ink', serif;
 }
 audio{
     width:auto;
-
+}
+.logo1{
+    height:60px;
+}
+.mayus{
+    color: #FF4B03;
+}
+.boton{
+    background-color: #FF4B03;
 }
