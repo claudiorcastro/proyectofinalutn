@@ -39,3 +39,10 @@ audio{
 .boton{
     background-color: #FF4B03;
 }
+.acomodo{
+    display: flex;
+    justify-content:end;
+}
+.nav-link{
+    font-size: 22px;
+}
