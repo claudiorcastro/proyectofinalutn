@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to bottom, #d8d3d3 0%, #a7a6a6 50%,#7e7e7e 75%);
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-style: italic;
+}
+footer{
+    background-color: #d8d3d3;
+    color: red;
+}
+a{
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+audio{
+    width:auto;
+
+}
