@@ -8,7 +8,6 @@ class Articulos {
         this.cantidad = 1;
     }
 }
-
 const camisa_leñadora1 = new Articulos(1, "camisa King", "../img/catalogo/camisa_leñadora1.jpg", "lorem", 2100);
 const camisa_leñadora2 = new Articulos(2, "camisa Camboriu", "../img/catalogo/camisa_leñadora2.jpg", "lorem", 2100);
 const camisa_leñadora3 = new Articulos(3, "camisa Bronx", "../img/catalogo/camisa_leñadora3.jpg", "lorem", 2100);
@@ -59,6 +58,12 @@ const mostrarArticulos = () => {
 
         const boton = document.getElementById(`boton${articulo.id}`);
         boton.addEventListener("click", () => {
+            Toastify({
+                text: "Producto agregado",
+                duration: 3000,
+                gravity:"top",
+                position:"left",
+            }).showToast();
             AgregaralCarrito(articulo.id) 
         });
     })
