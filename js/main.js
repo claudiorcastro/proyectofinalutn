@@ -113,6 +113,12 @@ const mostrarArticulo = () => {
 		const boton = document.getElementById(`eliminar${articulo.id}`);
 		console.log(boton);
 		boton.addEventListener("click", () => {
+            Toastify({
+                text: "Mal ahi, Ortiva!",
+                duration: 3000,
+                gravity:"bottom",
+                position:"right",
+            }).showToast();
 			eliminarLaCompra(articulo.id);
 		});
 	})
