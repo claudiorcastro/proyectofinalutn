@@ -31,6 +31,7 @@ footer{
 }
 a{
     font-family: 'Aref Ruqaa Ink', serif;
+    text-decoration: none;
 }
 audio{
     width:auto;
@@ -57,6 +58,22 @@ audio{
 }
 .imgArticulo{
     height: 200px;
+}
+.section-h2{
+    font-size: 15px;
+}
+.section-p{
+    font-family: 'Aref Ruqaa Ink', serif;
+    color: #ffffff;
+    text-align: center;
+}
+.section-a{
+    color: #ffffff;
+    font-style: oblique;
+}
+.nosotros-img{
+    width: 100%;
+
 }
 .card-tittle{
     font-size: 15;
