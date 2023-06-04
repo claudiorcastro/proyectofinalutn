@@ -41,7 +41,7 @@ img{width: 100%;}
 form{
     margin: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background-color: #ff804eee;
 }
 form textarea{
@@ -93,6 +93,13 @@ form textarea{
 .contacto-label{
     align-items: center;
 }
+.contacto-h3{
+    text-align: center;
+}
+.contacto-img{
+    width: 50px;
+}
+
 .card-tittle{
     font-size: 15;
 }
@@ -115,4 +122,7 @@ form textarea{
 }
 .btn{
     background-color: #FF4B03;
+    width: 100%;
+    max-width: 600px;
+    
 }

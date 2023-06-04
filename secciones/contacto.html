@@ -30,7 +30,7 @@
                         <a class="nav-link" aria-current="page" href="../index.html"><strong class="mayus">Home</strong></a>
                     </li>
                     <li class="nav-item d-flex justify-content-end">
-                        <a class="nav-link" aria-current="page" href="catalogo.html"><strong class="mayus">Catalogo</strong></a>
+                        <a class="nav-link" aria-current="page" href="tienda.html"><strong class="mayus">Tienda</strong></a>
                     </li>
                 </ul>
             </div>
@@ -46,32 +46,57 @@
         <h2>
             Tu lugar.. Tu estilo.
         </h2>
-        <img src="../img/contacto/contacto-1.png" alt="">
-        <section class = "container-fluid d-flex justify-content-center" >
-                <form action="" class="contenedor row">
-                    <div class="mb-3 col-xs-12 col-sm-6 col-lg-4">
-                        <label for="exampleInputEmail1" class="form-label">Nombre:</label>
-                        <input type="text" id="name" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+        <div class="d-flex justify-content-center">
+            <img class="my-3 w-100 mx-3" src="../img/contacto/contacto-1.png" alt="">
+        </div>
+        <section class = "container-fluid d-flex justify-content-center mt-4 mb-4" >
+            
+                <div class="row container-fluid ">
+                    <div class="col-xs-12 col-md-6 container-fluid row d-flex justify-content-center">
+                        <h3 class="col-md-12 contacto-h3">¿Querés sumarte a nuestra comunidad?</h3>
+                        <form action="" class="row col-md-12 w-auto">
+                            <div class="mb-3 col-xs-12 col-sm-6 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+                                <input type="text" id="name" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3 contato-label col-xs-12 col-sm-6 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3 col-xs-12 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">telefono:</label>
+                                <input type="number" id="telefono" name="telefono" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3 col-xs-12 col-lg-12">
+                                <label>Mensaje</label>
+                                <textarea name="mensaje" required></textarea>
+                            </div>
+                            <button id="enviar" type="submit" class="btn boton__formulario" value="Enviar" >Enviar</button>
+                        </form>
                     </div>
-                    <div class="mb-3 contato-label col-xs-12 col-sm-6 col-lg-4">
-                        <label for="exampleInputEmail1" class="form-label">Email:</label>
-                        <input type="email" id="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div class="col-xs-12 col-md-6 d-flex align-content-end justify-content-end container-fluid">
+                        <div class="row">
+                            <h3 class="contacto-h3 col-md-12 w-auto">Nuestras redes son:</h3>
+                            <div>
+                                <a href="errror404.html"><img class="contacto-img" src="/img/iconos/chicaredes.png"  alt=""></a>
+                                <a href="errror404.html"><img class="contacto-img" src="/img/iconos/chicaredes_1.png" alt=""></a>
+                                <a href="errror404.html"><img class="contacto-img" src="/img/iconos/chicaredes_2.png" alt=""></a>
+                                <a href="errror404.html"><img class="contacto-img" src="/img/iconos/chicaredes_3.png" alt=""></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-3 col-xs-12 col-lg-4">
-                        <label for="exampleInputEmail1" class="form-label">telefono:</label>
-                        <input type="number" id="telefono" name="telefono" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                    </div>
-                    <div class="mb-3 col-xs-12 col-lg-12">
-                        <label>Mensaje</label>
-                        <textarea name="mensaje" required></textarea>
-                    </div>
-                    <button id="enviar" type="submit" class="btn boton__formulario" value="Enviar" >Enviar</button>
-                </form>
+                </div>
+                
+            
+            
         </section>
+        
+            
+        
     </main>
     <!--Fin del Main-->
     <!--Comienzo del Footer-->
-    <footer class=" px-5 align-items-center container-fluid">
+    <footer class=" px-5 align-items-center container-fluid mt-4">
         <div class="row d-flex justify-content-center align-items-center">
             <p class="col-xs-12 col-md-6">
                 Proyecto final Curso de programación UTN - Realizado por Claudio Castro - 2023 

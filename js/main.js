@@ -8,21 +8,21 @@ class Articulos {
         this.cantidad = 1;
     }
 }
-const camisa_leñadora1 = new Articulos(1, "Camisa King", "../img/catalogo/camisa_leñadora1.jpg", "lorem", 2100);
-const camisa_leñadora2 = new Articulos(2, "Camisa Camboriu", "../img/catalogo/camisa_leñadora2.jpg", "lorem", 2100);
-const camisa_leñadora3 = new Articulos(3, "Camisa Bronx", "../img/catalogo/camisa_leñadora3.jpg", "lorem", 2100);
-const camisa_leñadora4 = new Articulos(4, "Camisa Bambú", "../img/catalogo/camisa_leñadora4.jpg", "lorem", 2100);
-const camisa_leñadora5 = new Articulos(5, "Camisa Toxic", "../img/catalogo/camisa_leñadora5.jpg", "lorem", 2100);
-const camisa_leñadora6 = new Articulos(6, "Camisa Danger", "../img/catalogo/camisa_leñadora6.jpg", "lorem", 2100);
-const camisa_leñadora7 = new Articulos(7, "Camisa Plus", "../img/catalogo/camisa_leñadora7.jpg", "lorem", 2100);
-const camisa_leñadora8 = new Articulos(8, "Camisa Motoclub", "../img/catalogo/camisa_leñadora8.jpg", "lorem", 2100);
-const Jean = new Articulos(9, "Jean Start", "../img/catalogo/jean_rock.jpg", "lorem", 7100);
-const zapatos1 = new Articulos(10, "Borcego Texas", "../img/catalogo/zapatos1.png", "lorem", 2100);
-const zapatos2 = new Articulos(11, "Borcego Kansas", "../img/catalogo/zapatos2.jpg", "lorem", 2100);
-const zapatos3 = new Articulos(12, "Borcego Pampa", "../img/catalogo/zapatos3.jpg", "lorem", 2100);
-const zapatos4 = new Articulos(13, "Borcego Toro", "../img/catalogo/zapatos4.jpg", "lorem", 2100);
-const zapatos5 = new Articulos(14, "Borcego Plus", "../img/catalogo/zapatos5.jpg", "lorem", 2100);
-const zapatos6 = new Articulos(15, "Borcego Kai", "../img/catalogo/zapatos6.jpg", "lorem", 2100);
+const camisa_leñadora1 = new Articulos(1, "Camisa King", "../img/catalogo/camisa_leñadora1.jpg", "lorem", 5050);
+const camisa_leñadora2 = new Articulos(2, "Camisa Camboriu", "../img/catalogo/camisa_leñadora2.jpg", "lorem", 5100);
+const camisa_leñadora3 = new Articulos(3, "Camisa Bronx", "../img/catalogo/camisa_leñadora3.jpg", "lorem", 4980);
+const camisa_leñadora4 = new Articulos(4, "Camisa Bambú", "../img/catalogo/camisa_leñadora4.jpg", "lorem", 7000);
+const camisa_leñadora5 = new Articulos(5, "Camisa Toxic", "../img/catalogo/camisa_leñadora5.jpg", "lorem", 5500);
+const camisa_leñadora6 = new Articulos(6, "Camisa Danger", "../img/catalogo/camisa_leñadora6.jpg", "lorem", 3900);
+const camisa_leñadora7 = new Articulos(7, "Camisa Plus", "../img/catalogo/camisa_leñadora7.jpg", "lorem", 4200);
+const camisa_leñadora8 = new Articulos(8, "Camisa Motoclub", "../img/catalogo/camisa_leñadora8.jpg", "lorem", 4800);
+const Jean = new Articulos(9, "Jean Start", "../img/catalogo/jean_rock.jpg", "lorem", 11100);
+const zapatos1 = new Articulos(10, "Borcego Texas", "../img/catalogo/zapatos1.png", "lorem", 22000);
+const zapatos2 = new Articulos(11, "Borcego Kansas", "../img/catalogo/zapatos2.jpg", "lorem", 21000);
+const zapatos3 = new Articulos(12, "Borcego Pampa", "../img/catalogo/zapatos3.jpg", "lorem", 17000);
+const zapatos4 = new Articulos(13, "Borcego Toro", "../img/catalogo/zapatos4.jpg", "lorem", 15000);
+const zapatos5 = new Articulos(14, "Borcego Plus", "../img/catalogo/zapatos5.jpg", "lorem", 17500);
+const zapatos6 = new Articulos(15, "Borcego Kai", "../img/catalogo/zapatos6.jpg", "lorem", 18000);
 
 
 
@@ -59,7 +59,7 @@ const mostrarArticulos = () => {
         const boton = document.getElementById(`boton${articulo.id}`);
         boton.addEventListener("click", () => {
             Toastify({
-                text: "Producto agregado",
+                text: "Seguí comprando,Rey!",
                 duration: 3000,
                 gravity:"top",
                 position:"left",
@@ -156,7 +156,7 @@ EliminarCompra.addEventListener("click", () => {
       }).then((result) => {
         if (result.isConfirmed) {
           swalWithBootstrapButtons.fire(
-            'Compra eliminada!',
+            'Que tristeza, Compra eliminada!',
             'No tienes nada en el carrito',
             'success'
           )
@@ -165,7 +165,7 @@ EliminarCompra.addEventListener("click", () => {
           result.dismiss === Swal.DismissReason.cancel
         ) {
           swalWithBootstrapButtons.fire(
-            'Continua comprando!!',
+            'Continúa comprando!!',
             'Prepara la tarjeta para pagar!!'
           )
         }
