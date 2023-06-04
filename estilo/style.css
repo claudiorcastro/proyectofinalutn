@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
     background-color: black;
@@ -35,6 +36,16 @@ a{
 }
 audio{
     width:auto;
+}
+img{width: 100%;}
+form{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ff804eee;
+}
+form textarea{
+    width: 100%;
 }
 .logo1{
     height:60px;
@@ -70,10 +81,17 @@ audio{
 .section-a{
     color: #ffffff;
     font-style: oblique;
+    text-decoration: underline;
 }
 .nosotros-img{
     width: 100%;
-
+}
+.nosotros-p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.contacto-label{
+    align-items: center;
 }
 .card-tittle{
     font-size: 15;
@@ -94,4 +112,7 @@ audio{
 .img-eliminar{
     width: 20px;
     height: 30px;
+}
+.btn{
+    background-color: #FF4B03;
 }

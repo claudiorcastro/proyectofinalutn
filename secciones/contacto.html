@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg bg-body-transparent fixed-top">
             <div class="container-fluid mx-5">
               <a class="navbar-brand" href="#vulcano"><img class="logo1" src="../img/logo/logo1.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse acomodo" id="navbarSupportedContent">
@@ -46,9 +46,28 @@
         <h2>
             Tu lugar.. Tu estilo.
         </h2>
-        <p>
-            
-        </p>
+        <img src="../img/contacto/contacto-1.png" alt="">
+        <section class = "container-fluid d-flex justify-content-center" >
+                <form action="" class="contenedor row">
+                    <div class="mb-3 col-xs-12 col-sm-6 col-lg-4">
+                        <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+                        <input type="text" id="name" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3 contato-label col-xs-12 col-sm-6 col-lg-4">
+                        <label for="exampleInputEmail1" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3 col-xs-12 col-lg-4">
+                        <label for="exampleInputEmail1" class="form-label">telefono:</label>
+                        <input type="number" id="telefono" name="telefono" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3 col-xs-12 col-lg-12">
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" required></textarea>
+                    </div>
+                    <button id="enviar" type="submit" class="btn boton__formulario" value="Enviar" >Enviar</button>
+                </form>
+        </section>
     </main>
     <!--Fin del Main-->
     <!--Comienzo del Footer-->
