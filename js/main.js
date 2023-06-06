@@ -91,21 +91,21 @@ const mostrarArticulo = () => {
 	LaCompra.innerHTML = "";
 	carrito.forEach((articulo) => {
 		const card = document.createElement("div");
-		card.classList.add("col-xl-3", "col-md-6", "col-xs-12", "m-2");
+		card.classList.add("col-xl-3", "col-md-6", "col-xs-12", "w-auto", "m-2");
 		card.innerHTML = `
             <div class="card p-1">
                 <h3 class="card-tittle">${articulo.nombre}</h3>
                 <img src="${articulo.img}" class="card-img-top imgArticulo w-auto" alt="${articulo.nombre}">
                 <p class="description">${articulo.detalle}</p>
-                    <div class="d-flex justify-content-start">
-                        <p class="text-center">Cantidad: </p>
+                    <div class="d-flex justify-content-end">
+                        <p class="text-center p-0 m-0">Cantidad: </p>
                         <p class="card-text">${articulo.cantidad}</p>
                     </div>
-                    <div class="d-flex justify-content-end pe-2">
-                        <p class="text-center"> Precio: $</p>
+                    <div class="d-flex justify-content-end">
+                        <p class="text-center p-0 m-0"> Precio: $</p>
                         <p class="card-text">${articulo.precio}</p>
                     </div>
-                <button class="btn colorBoton" id="eliminar${articulo.id}">Eliminar Item</button>
+                <button class="btn colorBoton" id="eliminar${articulo.id}">Eliminar</button>
             </div>
             `;
 		LaCompra.appendChild(card);
